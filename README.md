@@ -183,3 +183,6 @@ print(f"P-Value: {p}")
 
 # RESULT:
 Thus, Feature selection and Feature scaling has been used on the given dataset.
+
+## Summary:
+The experiment focuses on performing Feature Scaling and Feature Selection on a given dataset. The data is first cleaned by removing missing values, then scaled using techniques like StandardScaler, MinMaxScaler, MaxAbsScaler, and RobustScaler to normalize the features. After scaling, Feature Selection methods such as Filter, Wrapper, and Embedded are applied to identify the most important features for model training. A K-Nearest Neighbors (KNN) classifier is used to test model performance, and evaluation metrics like confusion matrix and accuracy score are calculated. Finally, statistical methods like the Chi-Square test are demonstrated for feature relevance testing. The process concludes with saving the refined dataset, confirming that feature scaling and selection were successfully implemented.
